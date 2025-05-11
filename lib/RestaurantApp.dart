@@ -87,7 +87,7 @@ class _RestaurantFilterScreenState extends State<RestaurantFilterScreen> {
             ),
             const SizedBox(height: 12),
 
-            // Dropdown faixa de preço
+            //  faixa de preço
             DropdownButtonFormField<String>(
               value: selectedPrice,
               decoration: const InputDecoration(
@@ -111,7 +111,7 @@ class _RestaurantFilterScreenState extends State<RestaurantFilterScreen> {
             // Lista simulada (sem dados ainda)
             Expanded(
               child: ListView.builder(
-                itemCount: 5, // Simulação de 5 itens vazios
+                itemCount: 5, // Simulaco de 5 itens vazios
                 itemBuilder: (context, index) {
                   return ListTile(
                     leading: const Icon(Icons.restaurant, color: Color(0xFF679EA2)),
